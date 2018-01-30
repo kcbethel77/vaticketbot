@@ -163,8 +163,6 @@ After you specify the ticket severity (high, medium and low), the virtual agent 
 
 As the REST API is widely available, this app can be used to integrate Waston conversation service with most of legacy backend ticketing systems. Integrates with IBM Control Desk/Maximo is provided as an example in the code.
 
-The connection and authentication information for IBM Control Desk/Maximo system is left in app.js code for simplicity. These information should be modified to connect to your IBM Control Desk/Maximo system.
-
 ```bash
 headers: {
             'Authorization': 'Basic bWF4aW1vOnJlbW90ZTE=',
