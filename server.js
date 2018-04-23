@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copyright 2015 IBM Corp. All Rights Reserved.
+ * Copyright 2018 IBM Corp. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,6 +18,9 @@
 'use strict';
 
 require('dotenv').config({silent: true});
+
+// required for Deploy to IBM Cloud support
+require("metrics-tracker-client").track();
 
 var server = require('./app');
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3000;
