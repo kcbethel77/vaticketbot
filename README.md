@@ -66,7 +66,7 @@ Want to take your Watson app to the next level? Looking to leverage Watson Brand
 ## Before you begin
 
 * Create a Bluemix account
-    * [Sign up][sign_up] in Bluemix, or use an existing account. Your account must have available space for at least 1 app and 1 service.
+    * [Sign up][sign_up] in Bluemix, or use an existing account. Your account must have available space for at least 1 app and 2 service.
 * Make sure that you have the following prerequisites installed:
     * The [Node.js](https://nodejs.org/#download) runtime, including the [npm][npm_link] package manager
     * The [Cloud Foundry][cloud_foundry] command-line client
